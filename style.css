@@ -67,9 +67,10 @@ button {
 
 .image {
     background-color: #575f6f;
-    width: 1000px;
+    width: 640px;
     height: 240px;
     display: flex;
+    flex-shrink: 0;
     justify-content: center;
     align-items: center;
 }
