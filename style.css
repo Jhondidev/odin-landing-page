@@ -33,7 +33,7 @@ a {
     text-decoration: none;
 }
 
-a, p, .image, button{
+a, p, .image, button, .image-text{
     color: #b8bbc0;
     font-size: 18px;
 }
@@ -72,4 +72,40 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.images-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 550px;
+}
+
+.images-container .text{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 600;
+    margin: 48px;
+}
+
+.image-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.image-content{
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 10px;
+}
+
+.image-text {
+    font-size: 20px;
+    color: hsl(216, 22%, 28%);
+    width: 180px;
+    text-align: center
 }
