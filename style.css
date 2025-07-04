@@ -129,3 +129,43 @@ button {
     font-size: 28px;
     font-weight: bold;
 }
+
+.singup-container{
+    display: flex;
+    justify-content: center;
+    padding: 140px 0px;
+}
+
+.cta-container{
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 1124px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+}
+
+.cta-title{
+    font-weight: 600;
+    color: white;
+    font-size: 26px;
+}
+
+.cta-text{
+    font-size: 20px;
+    color: lightgray;
+}
+
+.cta-container button {
+    border: 3px solid white;
+}
+
+.footer {
+    color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-size: 20px;
+}
